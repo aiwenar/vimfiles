@@ -1,0 +1,14 @@
+snippet pra "#pragma macro" b
+#pragma $1
+endsnippet
+
+snippet fun "function" b
+auto ${1:name} ($2) -> ${3:type}
+{
+  ${4:// code}
+}
+endsnippet
+
+snippet dfu "function declaration" b
+auto ${1:name} ($2) -> ${3:type};
+endsnippet

@@ -1,0 +1,13 @@
+snippet ru "rule" b
+rule ${1:name}
+  command = ${2:command}
+  description = ${3:$1 \$out}
+endsnippet
+
+snippet bu "build target" b
+build $1: ${2:rule} $3
+endsnippet
+
+snippet def "default target" b
+default ${1:all}
+endsnippet

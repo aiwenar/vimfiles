@@ -1,0 +1,15 @@
+[submodule "dotvim/bundle/pathogen"]
+	path = dotvim/bundle/pathogen
+	url = https://github.com/tpope/vim-pathogen.git
+[submodule "dotvim/bundle/ctrlp.vim"]
+	path = dotvim/bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "dotvim/bundle/powerline"]
+	path = dotvim/bundle/powerline
+	url = https://github.com/Lokaltog/powerline.git
+[submodule "dotvim/bundle/supertab"]
+	path = dotvim/bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "dotvim/bundle/UltiSnips"]
+	path = dotvim/bundle/UltiSnips
+	url = https://github.com/vim-scripts/UltiSnips.git

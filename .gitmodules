@@ -13,3 +13,6 @@
 [submodule "dotvim/bundle/UltiSnips"]
 	path = dotvim/bundle/UltiSnips
 	url = https://github.com/vim-scripts/UltiSnips.git
+[submodule "dotvim/bundle/glsl.vim"]
+	path = dotvim/bundle/glsl.vim
+	url = https://github.com/beyondmarc/glsl.vim.git

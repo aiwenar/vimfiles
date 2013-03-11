@@ -93,7 +93,7 @@ nmap <C-w> :w<CR>
 
 " tab management
 map <C-t> :tabnew<CR>
-map <S-h> :tabprevious<CR>
-map <S-l> :tabnext<CR>
+map <C-h> :tabprevious<CR>
+map <C-l> :tabnext<CR>
 map <C-c> :tabclose<CR>
 

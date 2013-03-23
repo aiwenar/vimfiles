@@ -61,6 +61,8 @@ set copyindent
 set shiftwidth=2
 set tabstop=2
 set backspace=indent,eol,start
+" C indenting
+set cino=:0l1g0(0j1J1
 
 autocmd BufWrite * :%s/\s\+$//e
 

@@ -16,3 +16,6 @@
 [submodule "dotvim/bundle/glsl.vim"]
 	path = dotvim/bundle/glsl.vim
 	url = https://github.com/beyondmarc/glsl.vim.git
+[submodule "dotvim/bundle/tagbar"]
+	path = dotvim/bundle/tagbar
+	url = https://github.com/majutsushi/tagbar.git

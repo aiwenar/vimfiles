@@ -62,7 +62,15 @@ set shiftwidth=2
 set tabstop=2
 set backspace=indent,eol,start
 " C indenting
-set cino=:0l1g0(0j1J1
+"   :0  - case's 0 spaces to switch()
+"   l1  - do not align to case, make normal block depth
+"   g0  - c++ scope declarations 0 spaces to block
+"   N-s - do not indent content in c++ namespace
+"   (0  - align continuation line to first nonspace character after unclosed parenth
+"   u0  - same as (0, but one level deeper
+"   j1  - propertly indent java inline classes
+"   J1  - propertly indent javascript objects
+set cino=:0,l1,g0,N-s,(0,u0,j1,J1,hs
 
 autocmd BufWrite * :%s/\s\+$//e
 
@@ -88,7 +96,6 @@ call pathogen#infect ()
 " key mapping "
 """""""""""""""
 
-map g :GundoToggle<CR>
 map <F8> :TagbarToggle<CR>
 imap <C-w> <C-\><C-O>:w<CR>
 nmap <C-w> :w<CR>

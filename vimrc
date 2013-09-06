@@ -85,7 +85,8 @@ set laststatus=2
 """""""""""
 
 " powerline
-set rtp+=/home/phoenix/.vim/bundle/powerline/powerline/bindings/vim
+let s:plpath = "/home/" . $USER . "/.vim/bundle/powerline/powerline/bindings/vim"
+set rtp+=s:plpath
 let g:Powerline_symbols='fancy' " set powerline to use fancy symbols
 
 " pathogen

@@ -19,3 +19,6 @@
 [submodule "dotvim/bundle/tagbar"]
 	path = dotvim/bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
+[submodule "dotvim/bundle/vim-airline"]
+	path = dotvim/bundle/vim-airline
+	url = https://github.com/bling/vim-airline.git

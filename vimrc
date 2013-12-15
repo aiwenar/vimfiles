@@ -84,10 +84,12 @@ set laststatus=2
 " plugins "
 """""""""""
 
+let g:airline_powerline_fonts = 1
+
 " powerline
-let s:plpath = "/home/" . $USER . "/.vim/bundle/powerline/powerline/bindings/vim"
-set rtp+=s:plpath
-let g:Powerline_symbols='fancy' " set powerline to use fancy symbols
+" let s:plpath = "/home/" . $USER . "/.vim/bundle/powerline/powerline/bindings/vim"
+" set rtp+=s:plpath
+" let g:Powerline_symbols='fancy' " set powerline to use fancy symbols
 
 " pathogen
 runtime bundle/pathogen/autoload/pathogen.vim
